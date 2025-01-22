@@ -7,7 +7,7 @@ export default function HomeScreen() {
 
     return (
         <SafeAreaView style={styles.container}>
-            <Text style={{ color: "white", fontSize: 36 }}>
+            <Text style={{ paddingBottom: 10, color: "white", fontSize: 36 }}>
                 Counter: {counter}
             </Text>
             <Button
