@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "clicker",
-    "slug": "clicker",
+    "slug": "counter",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "980192be-2b08-45f1-ac74-9db97b293a20"
+      }
+    },
+    "owner": "jv200320"
   }
 }
